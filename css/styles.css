@@ -37,6 +37,9 @@ a{
 header{
     background-color: #379AE3;
     font: normal 700 1.8rem "Roboto", sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
 }
 header .wrapper{
     display: flex;
@@ -140,6 +143,7 @@ article .btn{
     background-color: #E67522;
 }
 article p{
+    margin-top: 0;
     padding: 0 25px 0;
     text-align: center;
 }
@@ -183,6 +187,37 @@ footer p{
     'GRAD' 0,
     'opsz' 24
 }
+
+/*-------Modale------*/
+div.mod{
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    background-color: #fff;
+    margin: auto;
+
+    font: normal 700 5.0rem "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.modale{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #00000080;
+    display: none;
+}
+.modale.visible{
+    display: flex;
+
+}
+
 
 
 
