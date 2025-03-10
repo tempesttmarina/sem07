@@ -120,9 +120,12 @@ h2{
     margin-right: auto;
     margin-bottom: 80px;
 }
+.acrobatique{
+    position: relative;
+}
 .premier{
     position: absolute;
-    right: auto;
+    right: 0;
 }
 .articles{
     display: grid;
