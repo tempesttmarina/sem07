@@ -69,6 +69,7 @@ header .btn{
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: bottom;
+    background-position-y: 57px;
 
     display: flex;
     align-items: center;
