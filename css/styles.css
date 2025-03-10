@@ -88,6 +88,7 @@ header .btn{
     justify-items: flex-end;
     background-color: #00000070;
     max-width: 550px;
+    max-height: 437px;
     margin-right: 135px;
     padding: 40px 50px;
     border-radius: 20px;
@@ -95,6 +96,7 @@ header .btn{
 h1{
     font: normal 700 6.4rem "Merriweather", serif;
     color: #E67522;
+    margin: 0;
 }
 .hero a{
     display: inline-block;
@@ -122,7 +124,7 @@ h2{
     margin-bottom: 80px;
 }
 .acrobatique{
-    position: relative;
+    position: relative; /*Pour l'image premier*/
 }
 .premier{
     position: absolute;
